@@ -18,17 +18,21 @@ The program consists of functions to prompt the user for a filename, open the fi
 - **Reporting:** Displays the counts to the user.
 
 ## Usage
-What is the name of the file you would like to process? data
-That is not a valid filename, please try again.
-
-What is the name of the file you would like to process? data.txt
-The number of lines in this file: 5
-The number of words in this file: 17
-The number of characters in this file: 77
-
 ### Running the Program
 The program is executed by running the `main()` function. The user will be prompted to enter a file name. If the file is found, it processes the file and displays the counts. If the file is not found, it prompts again.
 
+### Example Interaction
 ```python
 if __name__ == "__main__":
     main()
+
+# Output:
+# What is the name of the file you would like to process? data
+# That is not a valid filename, please try again.
+#
+# What is the name of the file you would like to process? data.txt
+# The number of lines in this file: 5
+# The number of words in this file: 17
+# The number of characters in this file: 77
+#
+# Process finished with exit code 0
